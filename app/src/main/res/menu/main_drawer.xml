@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/app_name">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/navigation_home"
+                android:icon="@drawable/ic_capstone_discovery"
+                android:title="@string/title_discovery" />
+            <item
+                android:id="@+id/navigation_translator"
+                android:icon="@drawable/ic_capstone_translate"
+                android:title="@string/title_translator" />
+            <item
+                android:id="@+id/navigation_touristspots"
+                android:icon="@drawable/ic_capstone_places"
+                android:title="@string/title_touristspots" />
+            <item
+                android:id="@+id/navigation_dictionary"
+                android:icon="@drawable/ic_capstone_dictionary"
+                android:title="@string/title_dictionary" />
+            <item
+                android:id="@+id/navigation_aboutus"
+                android:icon="@drawable/ic_capstone_person"
+                android:title="@string/title_about"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_txt">
+        <menu>
+            <item
+                android:id="@+id/nav_eroute"
+                android:icon="@drawable/ic_capstone_eroute"
+                android:title="@string/e_route" />
+        </menu>
+    </item>
+
+</menu>
