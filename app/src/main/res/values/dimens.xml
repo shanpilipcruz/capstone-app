@@ -17,4 +17,8 @@
     <dimen name="list_item_height">88dp</dimen>
     <dimen name="collection_title_horizontal_padding">4dp</dimen>
     <dimen name="activity_collection_container_height">258dp</dimen>
+
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
 </resources>

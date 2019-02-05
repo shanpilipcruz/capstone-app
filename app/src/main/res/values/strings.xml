@@ -57,5 +57,9 @@
     <string name="title_discovery">Discover</string>
     <string name="nav_txt">Navigation</string>
     <string name="e_route">E-Route</string>
+    <string name="speak_translation">Speak Translation</string>
+    <string name="text_to_speech">Text To Speech</string>
+    <string name="translate_text">Translate Text</string>
+    <string name="speech_out">Speech Output Here</string>
     // End
 </resources>
