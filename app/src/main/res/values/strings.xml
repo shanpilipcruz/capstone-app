@@ -61,5 +61,7 @@
     <string name="text_to_speech">Text To Speech</string>
     <string name="translate_text">Translate Text</string>
     <string name="speech_out">Speech Output Here</string>
+    <string name="speechtotext">speechToText</string>
+    <string name="translated_text_here">Translated Text Here</string>
     // End
 </resources>

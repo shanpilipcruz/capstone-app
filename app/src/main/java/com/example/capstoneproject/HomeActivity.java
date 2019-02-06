@@ -1,6 +1,7 @@
 package com.example.capstoneproject;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -18,6 +19,8 @@ public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     protected FrameLayout frameLayout;
+    public static final String API_KEY = "AIzaSyBYn_HkMAoetw-3RRR7AtdLdgxvOLdM4SU";
+    public static final Handler textViewHandler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

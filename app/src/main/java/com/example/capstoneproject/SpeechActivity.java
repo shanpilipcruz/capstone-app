@@ -1,6 +1,7 @@
 package com.example.capstoneproject;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.ServiceConnection;
@@ -18,10 +19,13 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.capstoneproject.classes.SpeechService;
+import com.example.capstoneproject.classes.SpeechTranslatorProcess;
 import com.example.capstoneproject.classes.VoiceRecorder;
 import com.example.capstoneproject.fragments.MessageDialogFragment;
 
@@ -32,11 +36,17 @@ import static com.example.capstoneproject.classes.SpeechHelper.REQUEST_RECORD_AU
 import static com.example.capstoneproject.classes.SpeechHelper.mSpeechService;
 import static com.example.capstoneproject.classes.SpeechHelper.mVoiceRecorder;
 
-public class SpeechActivity extends HomeActivity implements TextToSpeech.OnInitListener {
+public class SpeechActivity extends HomeActivity
+        implements TextToSpeech.OnInitListener, AdapterView.OnItemSelectedListener {
 
     public static TextToSpeech textToSpeech;
     private ImageButton speakButton;
+    @SuppressLint("StaticFieldLeak")
+    public static TextView SpeechText;
+    public static String selectedLanguage = "";
     private TextView SpeechOutput;
+    private ImageButton translateButton;
+    private ImageButton textTranslatorSwitcher;
     // Resource caches
     private int mColorHearing;
     private int mColorNotHearing;
@@ -46,14 +56,15 @@ public class SpeechActivity extends HomeActivity implements TextToSpeech.OnInitL
     /*
 
 
-    ////////////////////////////////////////////////////////////
-    ////////////////////////////////////////////////////////////
-    /////TEXT TO SPEECH BOUNDARY AND SPEECH TO TEXT MODULES/////
-    ////////////////////////////////////////////////////////////
-    ////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+    /////TRANSLATOR, TEXT TO SPEECH BOUNDARY AND SPEECH TO TEXT MODULES////////
+    ///////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
 
 
     */
+
     private final VoiceRecorder.Callback mVoiceCallback = new VoiceRecorder.Callback() {
 
         @Override
@@ -154,11 +165,30 @@ public class SpeechActivity extends HomeActivity implements TextToSpeech.OnInitL
 
         textToSpeech = new TextToSpeech(this, this);
         SpeechOutput = findViewById(R.id.STTOutput);
+        SpeechText = findViewById(R.id.speechText);
+
         speakButton = findViewById(R.id.speakButton);
         speakButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 speakOut();
+            }
+        });
+
+        translateButton = findViewById(R.id.translateButton);
+        translateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new SpeechTranslatorProcess().execute();
+            }
+        });
+
+        textTranslatorSwitcher = findViewById(R.id.translateTextSwitcher);
+        textTranslatorSwitcher.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), TextActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -277,5 +307,36 @@ public class SpeechActivity extends HomeActivity implements TextToSpeech.OnInitL
                 mStatus.setTextColor(hearingVoice ? mColorHearing : mColorNotHearing);
             }
         });
+    }
+
+    /*
+
+
+    ////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////
+    /////SPEECH TO TEXT MODULES to TRANSLATOR MODULE////////////
+    ////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////
+
+
+    */
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        if (position == 0) {
+            selectedLanguage = "en";
+            Toast.makeText(this,"The selected Language is english", Toast.LENGTH_SHORT).show();
+        } else if (position == 1) {
+            selectedLanguage = "ceb";
+            Toast.makeText(this,"The selected Language is cebuano", Toast.LENGTH_SHORT).show();
+        } else if (position == 2) {
+            selectedLanguage = "tl";
+            Toast.makeText(this,"The selected Language is tagalog", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
     }
 }

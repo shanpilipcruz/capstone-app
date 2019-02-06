@@ -27,6 +27,7 @@
         <service android:name=".classes.SpeechService" />
         <activity android:name=".classes.SpeechHelper" />
         <activity android:name=".SpeechActivity" />
+        <activity android:name=".TextActivity" />
     </application>
 
 </manifest>
