@@ -138,8 +138,8 @@ public class TextActivity extends HomeActivity implements TextToSpeech.OnInitLis
             textViewHandler.post(new Runnable(){
                 @Override
                 public void run(){
-                    if(inputTextTranslator != null){
-                        inputTextTranslator.setText(translation.getTranslatedText());
+                    if(translatedTextView != null){
+                        translatedTextView.setText(translation.getTranslatedText());
                     }
                 }
             });

@@ -20,7 +20,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -42,11 +44,15 @@ public class SpeechActivity extends HomeActivity
     public static TextToSpeech textToSpeech;
     private ImageButton speakButton;
     @SuppressLint("StaticFieldLeak")
-    public static TextView SpeechText;
     public static String selectedLanguage = "";
-    private TextView SpeechOutput;
+    @SuppressLint("StaticFieldLeak")
+    public static TextView SpeechOutput;
+
     private ImageButton translateButton;
     private ImageButton textTranslatorSwitcher;
+    @SuppressLint("StaticFieldLeak")
+    public static TextView mText;
+
     // Resource caches
     private int mColorHearing;
     private int mColorNotHearing;
@@ -91,7 +97,7 @@ public class SpeechActivity extends HomeActivity
         }
 
     };
-    private TextView mText;
+    private Spinner spinner;
     private final SpeechService.Listener mSpeechServiceListener =
             new SpeechService.Listener() {
                 @Override
@@ -165,7 +171,6 @@ public class SpeechActivity extends HomeActivity
 
         textToSpeech = new TextToSpeech(this, this);
         SpeechOutput = findViewById(R.id.STTOutput);
-        SpeechText = findViewById(R.id.speechText);
 
         speakButton = findViewById(R.id.speakButton);
         speakButton.setOnClickListener(new View.OnClickListener() {
@@ -192,6 +197,11 @@ public class SpeechActivity extends HomeActivity
             }
         });
 
+        spinner = findViewById(R.id.selectLanguage);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.languages, android.R.layout.simple_spinner_dropdown_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
         /*
 
 

@@ -1,7 +1,9 @@
 package com.example.capstoneproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -84,14 +86,15 @@ public class HomeActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.navigation_home) {
             // Handle the discovery action
         } else if (id == R.id.navigation_translator) {
-
+            Intent translatorIntent = new Intent(this, SpeechActivity.class);
+            startActivity(translatorIntent);
         } else if (id == R.id.navigation_touristspots) {
 
         } else if (id == R.id.navigation_dictionary) {

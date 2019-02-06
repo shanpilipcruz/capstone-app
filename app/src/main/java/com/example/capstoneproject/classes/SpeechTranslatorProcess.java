@@ -8,7 +8,8 @@ import com.google.cloud.translate.Translation;
 
 import static com.example.capstoneproject.HomeActivity.API_KEY;
 import static com.example.capstoneproject.HomeActivity.textViewHandler;
-import static com.example.capstoneproject.SpeechActivity.SpeechText;
+import static com.example.capstoneproject.SpeechActivity.SpeechOutput;
+import static com.example.capstoneproject.SpeechActivity.mText;
 import static com.example.capstoneproject.SpeechActivity.selectedLanguage;
 
 public class SpeechTranslatorProcess extends AsyncTask<Void, Void, Void> {
@@ -21,13 +22,13 @@ public class SpeechTranslatorProcess extends AsyncTask<Void, Void, Void> {
         Translate translate = options.getService();
 
         final Translation translation =
-                translate.translate(SpeechText.getText().toString(), Translate.TranslateOption.targetLanguage(selectedLanguage));
+                translate.translate(mText.getText().toString(), Translate.TranslateOption.targetLanguage(selectedLanguage));
 
         textViewHandler.post(new Runnable(){
             @Override
             public void run(){
-                if(SpeechText != null){
-                    SpeechText.setText(translation.getTranslatedText());
+                if(SpeechOutput != null){
+                    SpeechOutput.setText(translation.getTranslatedText());
                 }
             }
         });
