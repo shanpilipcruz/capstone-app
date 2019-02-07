@@ -16,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -91,19 +92,22 @@ public class HomeActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.navigation_home) {
-            // Handle the discovery action
+            Intent homeIntent = new Intent(this, ActivitiesActivity_Main.class);
+            startActivity(homeIntent);
         }  else if (id == R.id.navigation_activities) {
-
+            Intent activitiesIntent = new Intent(this, DiscoveryActivity.class);
+            startActivity(activitiesIntent);
         } else if (id == R.id.nav_eroute) {
-
+            Intent eRouteIntent = new Intent(this, ElectronicRouteActivity.class);
+            startActivity(eRouteIntent);
         } else if (id == R.id.navigation_translator) {
             Intent translatorIntent = new Intent(this, SpeechActivity.class);
             startActivity(translatorIntent);
         }else if (id == R.id.navigation_dictionary) {
-            Intent discoverIntent = new Intent(this, DiscoveryActivity.class);
+            Intent discoverIntent = new Intent(this, DictionaryActivity.class);
             startActivity(discoverIntent);
         } else if (id == R.id.navigation_developers) {
-
+            Toast.makeText(this,"We aren't finished with this Feature yet", Toast.LENGTH_SHORT).show();
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
