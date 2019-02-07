@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_splash_screen_bg" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/descriptionSplashScreen"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textSplash"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerInParent="true"
+        android:text="@string/splashText"
+        android:textColor="#fff"
+        tools:fontFamily="@font/baloo_thambi" />
+
+    <TextView
+        android:id="@+id/textSplash1"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textSplash"
+        android:layout_centerInParent="true"
+        android:text="@string/splashText1"
+        android:textColor="#fff"
+        tools:fontFamily="@font/baloo_thambi" />
+
+    <TextView
+        android:id="@+id/textSplash2"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textSplash1"
+        android:layout_centerInParent="true"
+        android:text="@string/splashText2"
+        android:textColor="#fff"
+        tools:fontFamily="@font/baloo_thambi" />
+</RelativeLayout>

@@ -4,6 +4,37 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="status_hearing">#00574B</color>
+    <color name="status_hearing">#000</color>
     <color name="status_not_hearing">#757575</color>
+
+    <color name="detailed_attraction_view_background">#B0BEC5</color>
+    <color name="top_activities_text_color">#00B0FF</color>
+    <color name="top_restaurants_text_color">#FF3D00</color>
+    <color name="top_breweries_text_color">#3D5AFE</color>
+    <color name="top_bars_nightlife_text_color">#FF9100</color>
+    <color name="black">#101010</color>
+
+    // DISCOVERY
+    <!-- Background color for app -->
+    <color name="tan_background">#3B413C</color>
+    <!-- Background color for the hotel category -->
+    <color name="category_hotel">#01295F</color>
+
+    <!-- Background color for the hotel category -->
+    <color name="category_cafes">#437F97</color>
+
+    <!-- Background color for the hotel category -->
+    <color name="category_fam_attract">#849324</color>
+
+    <!-- Background color for the hotel category -->
+    <color name="category_museums">#FFB30F</color>
+
+    <!-- Background color for the hotel category -->
+    <color name="category_theaters">#FD151B</color>
+
+    <!-- Background color for the hotel category -->
+    <color name="category_catacombs">#FE9920</color>
+    <!--#16AFCA-->
+    <color name="category_music">#CD853F</color>
+    // END
 </resources>

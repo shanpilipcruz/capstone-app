@@ -192,7 +192,7 @@ public class SpeechActivity extends HomeActivity
         textTranslatorSwitcher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), TextActivity.class);
+                Intent intent = new Intent(getApplicationContext(), SpeechActivity_Text.class);
                 startActivity(intent);
             }
         });
@@ -274,7 +274,7 @@ public class SpeechActivity extends HomeActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.speech_activity_menu, menu);
         return true;
     }
 

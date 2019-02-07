@@ -14,6 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
+        <service android:name=".classes.SpeechService" />
+        <activity android:name=".classes.SpeechHelper" />
         <activity
             android:name=".HomeActivity"
             android:label="@string/app_name"
@@ -21,13 +23,44 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".classes.SpeechService" />
-        <activity android:name=".classes.SpeechHelper" />
+        <activity
+            android:name=".SplashScreen_OnBoarding"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
         <activity android:name=".SpeechActivity" />
-        <activity android:name=".TextActivity" />
+        <activity android:name=".SpeechActivity_Text" />
+
+        <activity android:name=".ActivitiesActivity" />
+        <activity android:name=".ActivitiesActivity_Main" />
+        <activity android:name=".ActivitiesActivity_ListActivity"
+            android:parentActivityName=".ActivitiesActivity_Main" />
+        <activity android:name=".ActivitiesActivity_PagerActivity" />
+
+        <activity android:name=".DictionaryActivity" android:label="@string/title_activity_dictionary"/>
+        <activity android:name=".ElectronicRouteActivity" />
+
+        <activity android:name=".DiscoveryActivity" />
+        <activity android:name=".DiscoveryActivity_Cafe" />
+        <activity android:name=".DiscoveryActivity_Catacombs" />
+        <activity android:name=".DiscoveryActivity_FamAttr" />
+        <activity android:name=".DiscoveryActivity_Hotels" />
+        <activity android:name=".DiscoveryActivity_Museum" />
+        <activity android:name=".DiscoveryActivity_Music" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

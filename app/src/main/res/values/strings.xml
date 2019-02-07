@@ -6,7 +6,7 @@
     <string name="title_dictionary">Dictionary</string>
     <string name="title_about">Developers</string>
 
-    // For speech to text
+    // SPEECH TO TEXT
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="speech_prompt">Say something&#8230;</string>
@@ -48,8 +48,8 @@
     <string name="title_activity_copy">copy</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Cebu Tourist Guide with Dialect Translator</string>
+    <string name="nav_header_subtitle">Tourist Assistance Application</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="Translate">translate</string>
     <string name="textToSpeech">Translate Text</string>
@@ -63,5 +63,646 @@
     <string name="speech_out">Speech Output Here</string>
     <string name="speechtotext">speechToText</string>
     <string name="translated_text_here">Translated Text Here</string>
-    // End
+    // END
+
+    // DISCOVERY
+    <string name="category_cafes"> Mountains in Cebu</string>
+
+    <string name="category_hotel"> Falls in Cebu</string>
+
+    <string name="category_fam_attract"> Beaches in Cebu</string>
+
+    <string name="category_museums"> Festivals in Cebu</string>
+
+    <string name="category_catacombs">Foods in Cebu</string>
+    <string name="category_music">Musics in Cebu</string>
+
+    <string name="one_hotel_name">Aguinid Falls</string>
+    <string name="one_hotel_desc">Aguinid Falls is one of more than 11 waterfalls of the town of Samboan and perhaps the most popular of them all. It lies along the calcium-rich Tangbo River making the water beautifully turquoise and warm.</string>
+    <string name="one_hotel_addr">Santander - Barili - Toledo Rd, Samboan, Cebu</string>
+    <string name="one_hotel_work">N/A</string>
+    <string name="one_hotel_tel">N/A</string>
+    <string name="one_hotel_site">https://www.thepinaysolobackpacker.com/aguinid-falls/</string>
+
+    <string name="two_hotel_name">Tumalog Falls</string>
+    <string name="two_hotel_desc">Tumalog Falls, also called as "Toslob falls" or "Mag-ambak falls" situated in barangay Luka, southern part of Cebu, Philippines. It takes approximately two and a half hours to get to the area from Cebu City.</string>
+    <string name="two_hotel_addr">Cebu South Rd, Oslob, Cebu</string>
+    <string name="two_hotel_work">Friday	Open 24 hours
+                                  \n\nSaturday	8am–5pm
+                                  \n\nSunday	8am–5pm
+                                  \n\nMonday	Open 24 hours
+                                  \n\nTuesday   Open 24 hours
+                                  \n\nWednesday	Open 24 hours
+                                  \n\nThursday	Open 24 hours
+
+</string>
+    <string name="two_hotel_tel">0943 415 0072</string>
+    <string name="two_hotel_site">http://meanttogo.com/get-awed-by-the-beauty-and-grandeur-of-tumalog-falls-in-oslob-cebu/</string>
+
+    <string name="three_hotel_name">Kawasan Falls</string>
+    <string name="three_hotel_desc">Kawasan Falls is one of the Philippines most famous waterfalls, and also one of the most famous in the world. Kawasan Falls is known to be a tropical oasis with big bamboo rafts that can take you around the turquoise natural pool, and under the waterfall.</string>
+    <string name="three_hotel_addr">Badian, 6031 Cebu</string>
+    <string name="three_hotel_work">OPEN 24 HRS</string>
+    <string name="three_hotel_tel">0918 654 4111</string>
+    <string name="three_hotel_site">https://www.christineabroad.com/kawasan-falls-guide/</string>
+
+    <string name="four_hotel_name">Mantayupan Falls</string>
+    <string name="four_hotel_desc">Barili, a municipality located at the southwest portion of Cebu, derived the towns name from a local grass that abundantly grows in the area called balili.One of Barilis tourist attractions is the Mantayupan Falls which is one of the highest waterfalls in the province. The falls is also locally known as the Ambakan Falls.</string>
+    <string name="four_hotel_addr">Cebu, Barili, Unnamed Road</string>
+    <string name="four_hotel_work">Friday	7am–5pm
+            \n\nSaturday	7am–5pm
+            \n\nSunday	    7am–5pm
+            \n\nMonday	    7am–5pm
+            \n\nTuesday     7am–5pm
+            \n\nWednesday	7am–5pm
+            \n\nThursday    7am–5pm
+</string>
+    <string name="four_hotel_tel"> N/A</string>
+    <string name="four_hotel_site">https://www.choosephilippines.com/go/water-forms/4193/mantayupan-falls</string>
+
+    <string name="five_hotel_name">BINALAYAN HIDDEN WATERFALLS</string>
+    <string name="five_hotel_desc">“Beautiful things don’t ask for attention,” adventurer-photojournalist Sean O’Connell told Life negative assets manager Walter Mitty after seeing a magnificent but rare snow leopard through his camera. It may be just a quote from the 2013 adventure-comedy-drama movie The Secret Life of Walter Mitty. But the phrase rings true in real life—and in many destinations. The municipality of Samboan has its own gorgeous hidden wonder called Binalayan Falls in Barangay Bonbon.</string>
+    <string name="five_hotel_addr">Bonbon, Samboan, Cebu、</string>
+    <string name="five_hotel_work">Friday	8am–5pm
+            \n\nSaturday	8am–5pm
+            \n\nSunday	    8am–5pm
+            \n\nMonday	    8am–5pm
+            \n\nTuesday     8am–5pm
+            \n\nWednesday	8am–5pm
+            \n\nThursday    8am–5pm</string>
+    <string name="five_hotel_tel">N/A</string>
+    <string name="five_hotel_site">https://adrenalineromance.com/2016/03/04/binalayan-hidden-falls-three-flows-of-magic-beauty-and-charm/</string>
+
+    <string name="six_hotel_name">DAU WATERFALLS</string>
+    <string name="six_hotel_desc">For most Filipinos, staving off the intense tropical heat means going to the beaches. But what if you want to do something different? What if you are tired of crowded beaches but still want to go some place where you could cool off? Then head off to Samboan, the beautiful waterfall capital of southern Cebu. There you can take a cool, refreshing plunge in their pristine and magnificent waterfalls. One of those stunning natural wonders is the picturesque Dau Falls</string>
+    <string name="six_hotel_addr">Santander - Barili - Toledo Rd, Samboan, Cebu</string>
+    <string name="six_hotel_work">N/A</string>
+    <string name="six_hotel_tel">N/A</string>
+    <string name="six_hotel_site">https://adrenalineromance.com/2016/02/26/dau-falls-cooling-off-at-samboans-highest-waterfall//</string>
+
+    <string name="montaneza_name">MONTANEZA WATERFALLS</string>
+    <string name="montaneza_desc">The Montaneza River threads its way through a narrow ravine. It is a perfect setting for an unforgettable canyon tour. We abseil a set of five different waterfalls, climbing and jumping down the rapids. Once you rappel the first waterfall, there is no return anymore. On of the high lights are the descending of a 30 meter high waterfall with an overhang. On the end of the tour there are natural hot springs , where you can take a bath and relax after a very exciting adventure. The adrenaline pumping thrill and fun combined with incredible tropical nature is something you will remember for a long time.</string>
+    <string name="montaneza_addr">Montañeza,, Malabuyoc, Cebu</string>
+    <string name="montaneza_work">N/A</string>
+    <string name="mpntaneza_tel">N/A</string>
+    <string name="montaneza_site">https://www.thepinaysolobackpacker.com/inambakan-falls-travel-guide-itinerary-budget/</string>
+
+
+    <string name="one_cafe_name">Osmeña Peak</string>
+    <string name="one_cafe_desc">Osmeña Peak, the highest mountain in Cebu is a cluster of green jagged hills like a deformed twin of Chocolate Hills of Bohol  hugging the shorelines of Badian. </string>
+    <string name="one_cafe_addr">Mantalongon, Dalaguete 6022, Philippines</string>
+    <string name="one_cafe_work">N/A</string>
+    <string name="one_cafe_tel">+N/A</string>
+    <string name="one_cafe_site">https://www.thepinaysolobackpacker.com/osmena-peak-dalaguete-cebu//</string>
+
+    <string name="two_cafe_name">Mt. Naupa</string>
+    <string name="two_cafe_desc">Mt. Naupa is located in the City of Naga..the hike is perfect for that adrenalin craving especially for the beginners. </string>
+    <string name="two_cafe_addr">Naga, Cebu</string>
+    <string name="two_cafe_work">N/A</string>
+    <string name="two_cafe_tel">N/A</string>
+    <string name="two_cafe_site"> https://chasingpotatoes.com/2016/06/06/mt-naupa-climbing-the-almost-perfect-cone-of-nagas-highest-peak/</string>
+
+    <string name="three_cafe_name">Mt. Kan-Irag (Sirao Peak)</string>
+    <string name="three_cafe_desc">Sirao Peak is famous for trekkers as it is one of the most accessible mountains within the city. It has that picturesque green meadow panoramic scene below when you’re at its peak. </string>
+    <string name="three_cafe_addr">Barangay Sibugay, Cebu City</string>
+    <string name="three_cafe_work">N/A</string>
+    <string name="three_cafe_tel">N/A</string>
+    <string name="three_cafe_site">https://theficklefeet.com/mt-kan-irag/</string>
+
+    <string name="four_cafe_name">Mt. Mauyog</string>
+    <string name="four_cafe_desc">Mt. Mauyog has a towering height of 1,027 meters above sea level. It is also one of the popular hiking destinations my province (Cebu )because of its human brain look-like formation. Hikers usually visit this place and proceed to Mt Manunggal or vice versa for a day hike.</string>
+    <string name="four_cafe_addr">Balamban, Cebu</string>
+    <string name="four_cafe_work">N/A</string>
+    <string name="four_cafe_tel">N/A</string>
+    <string name="four_cafe_site">https://thewanderingitinerant.com/2017/09/01/traversing-mt-manunggal-mt-mauyog-a-random-journey/</string>
+
+    <string name="five_cafe_name">Mt. Manunggal</string>
+    <string name="five_cafe_desc">Mount Manunggal is the highest mountain in the island of Cebu located in Barangay Magsaysay in Balamban, Cebu province, rising 3,599 ft. above sea level. It is the site of the crash of the presidential plane Mt. Pinatubo which killed President Ramon Magsaysay and twenty-four others on March 17, 1957</string>
+    <string name="five_cafe_addr">Barangay Magsaysay in Balamban, Cebu </string>
+    <string name="five_cafe_work">N/A</string>
+    <string name="five_cafe_tel">N/A</string>
+    <string name="five_cafe_site">http://www.facecebu.net/2017/09/a-trek-to-historic-peak-mt-manunggal.html</string>
+
+    <string name="lanaya_name">Mt. Lanaya</string>
+    <string name="lanaya_desc">Mt. Lanaya is located at the municipality of Alegria, Cebu and it is considered one of the most difficult mountains in Cebu. Because of its constant 70 degrees ascent, every hiker will surely sweat a lot and break their legs from their treacherous trek.</string>
+    <string name="lanaya_addr">Barangay Legaspi, Alegría, Cebu </string>
+    <string name="lanaya_work">N/A</string>
+    <string name="lanaya_tel">N/A</string>
+    <string name="lanaya_site">https://www.sojournsandstories.com/2017/05/09/mt-lanaya-guide/</string>
+
+
+    <string name="one_fam_name">Sinulog Festival</string>
+    <string name="one_fam_desc">People shouts "Viva Pit Señor". The Sinulog is Cebu Citys most popular and grandest festival. It is celebrated every 3rd Sunday of January in honor of the Señor Sto. Niño. Foreign and local tourists flock to Cebu City for this celebration and join in the procession and the grand mardi gras. The Sinulog is a dance-prayer expressing devotion to the Holy Child. it is popular belief among Cebuanos that this dance-prayer is the most effective way of getting favors from the Sto. Niño. This festival is world-renowed and the most extravagant festival in Cebu. The Sinulog festival is celebrated in honour of the holy child Senior Santo Niño. The highlights in this festivities is the street dancing where merrymakers dance to the beat of the pit senor drums. </string>
+    <string name="one_fam_addr">LOREM IPSUM DOLOR</string>
+    <string name="one_fam_work">3rd Sunday of January (Cebu City) </string>
+    <string name="one_fam_tel">-</string>
+    <string name="one_fam_site">-</string>
+
+    <string name="two_fam_name">Tagbo Festival</string>
+    <string name="two_fam_desc">It is celebrated every January in honor of patron Sto. Niño de Poro. Beloved memoir of a living past, Tagbo is the corner stone from which this great municipality has sprung. Rich in cultural heritage and deep in spiritual values, Tagbo is a very significant event precluding the birth of a town very dear to the hearts of her sons and daughters.</string>
+    <string name="two_fam_addr">LOREM IPSUM DOLOR</string>
+    <string name="two_fam_work">19th of January (Poro, Camotes Island)</string>
+    <string name="two_fam_tel">-</string>
+    <string name="two_fam_site">-</string>
+
+    <string name="three_fam_name">Silmugi Festival</string>
+    <string name="three_fam_desc">"Silmugi" is an old name of the town of Borbon and the festival is in honor of its patron saint for the bountiful harvest. The street dancing which is one of the highlights is participated in by the different barangays.</string>
+    <string name="three_fam_addr">LOREM IPSUM DOLOR</string>
+    <string name="three_fam_work">20th of January (Borbon)</string>
+    <string name="three_fam_tel">-</string>
+    <string name="three_fam_site">-</string>
+
+    <string name="four_fam_name">Bodbod Festival</string>
+    <string name="four_fam_desc">The town of Catmon is famous for its tasty "bodbod" and thus is the focus of the festival. The street dancing competition is participated by the different barangays has its dance movements, the movement of making the bodbod with the costumes in bodbod concept. </string>
+    <string name="four_fam_addr">-</string>
+    <string name="four_fam_work"> 10th Of February (Catmon)</string>
+    <string name="four_fam_tel">-</string>
+    <string name="four_fam_site">-</string>
+
+    <string name="five_fam_name">Kabayo Festival</string>
+    <string name="five_fam_desc">Organized by the Cebu Equine Owners, Breeders and Sportsmen Association (CEOBSA), the Kabayo festival is supported by the DOT. The festival promotes sports tourism, ecotourism and agri-industrial tourism awareness in the country. The highlights include the parade of horses, horse racing competition and the best decorated "tartanillas" or horse drawn carriages and features a bazaar and flea market.</string>
+    <string name="five_fam_addr">-</string>
+    <string name="five_fam_work">February - Movable (Mandaue City)</string>
+    <string name="five_fam_tel">-</string>
+    <string name="five_fam_site">-</string>
+
+    <string name="sarok_name">Sarok festival</string>
+    <string name="sarok_desc">The festival is part of the towns commemoration of their founding anniversary. It is a mardi gras parade and street dancing along the main thoroughfares with participants using a creative design of "sarok", a native hat used by the farmers to protect them from the heat of the sun.</string>
+    <string name="sarok_addr">-</string>
+    <string name="sarok_work">14th of February (Consolacion)</string>
+    <string name="sarok_tel">-</string>
+    <string name="sarok_site">-</string>
+
+    <string name="soli_name">Soli-Soli Festival</string>
+    <string name="soli_desc">named after the soli-soli plant which abounds around the lake Danao which is used for mat, bags and hat weaving and other handicrafts. its freestyle street dancing competition uses soli-soli plant as its dominant material. The festival adds color to the feast of St. Joseph the Worker.</string>
+    <string name="soli_addr">-</string>
+    <string name="soli_work">18th March (San Francisco, Camotes Island)</string>
+    <string name="soli_tel">-</string>
+    <string name="soli_site">-</string>
+
+    <string name="tostado_name">Tostado Festival</string>
+    <string name="tostado_desc">The festival focuses on the towns famous delicacy, the "tostado". The street dancing which is the highlight of the festivity uses the different movements of making tostado in the dance participated in by the different barangays.</string>
+    <string name="tostado_addr">-</string>
+    <string name="tostado_work">3rd Sunday of April (Santander)</string>
+    <string name="tostado_tel">-</string>
+    <string name="tostado_site">-</string>
+
+    <string name="haladaya_name"> Haladaya Festival</string>
+    <string name="haladaya_desc">Starts on Easter Sunday and ends with a street dancing on the seventh day after Easter. Haladaya means "Halad kang Datu Day", the leader of the first Malayan settlers in Daan bantayan. Highlights include the fluvial aprade where patron saints of the different barangays will be placed in decorated bancas or motorized outrigger boats and paraded in the sea.</string>
+    <string name="haladaya_addr">-</string>
+    <string name="haladaya_work"> Easter Sunday (Daan Bantayan)</string>
+    <string name="haladaya_tel">-</string>
+    <string name="haladaya_site">-</string>
+
+
+    <string name="kabanhawan_name"> Kabanhawan Festival</string>
+    <string name="kabanhawan_desc">Showcases the "Sugat" in which the town is known for many years since. The street dancing depicts the joy felt by the believers when Christ is resurrected. The celebration is grander since it will be followed by a day long games and entertainment that highlights the endowment of Minglanillas history, trade and arts..</string>
+    <string name="kabanhawan_addr">-</string>
+    <string name="kabanhawan_work">Easter Sunday (Minglanilla)</string>
+    <string name="kabanhawan_tel">-</string>
+    <string name="kabanhawan_site">-</string>
+
+    <string name="bahug_name"> Bahug-bahug sa Mactan or Kadaugan sa Mactan </string>
+    <string name="bahug_desc">A weeklong commemoration of the historic battle of Mactan between the Spanish Conquestador Fernando Magallanes and Mactan Chieftain Lapu-Lapu. The festival features various activities highlighted by the series of musical productions culminating with the famous battle, food street and live band entertainment.</string>
+    <string name="bahug_addr">-</string>
+    <string name="bahug_work">22nd - 27th of April (Lapu-Lapu City)</string>
+    <string name="bahug_tel">-</string>
+    <string name="bahug_site">-</string>
+
+
+    <string name="one_cat_name">Rico’s Lechon</string>
+    <string name="one_cat_desc">We asked locals where we could find the best lechon and they all pointed us to Rico’s Lechon, pioneer of the famous Spicy Lechon. Owner Enrico Dionson likes to keep things simple–his roasted lechon is only seasoned with traditional herbs and spices and has always been since he opened the business in 1997.
+                                \n\nTheir slogan, “Da Best Gyud”, lives up to our expectations. Indeed, it’s a lechon worthy of being called the best in Cebu. The restaurant also likes to stay ahead by adding Pinoy favorites to the menu other than lechon..</string>
+    <string name="one_cat_addr">Rico’s Lechon – Mabolo Branch (F. Cabahug St, Cebu City, Cebu)</string>
+    <string name="one_cat_work"> Monday- Sunday 10:00am-10:00pm</string>
+    <string name="one_cat_tel">(032)260–2443</string>
+    <string name="one_cat_site">https://www.ourawesomeplanet.com/awesome/2016/12/cebu-food-trip.html</string>
+
+    <string name="two_cat_name">The Pig and Palm</string>
+    <string name="two_cat_desc">The Pig and Palm is a Modern Spanish Tapas restaurant in Cebu by renowned British chef, Jason Atherton, and his Cebuana wife, Irha.
+    \n\nChef Jason earned his first Michelin Star in 2011 and has worked with some of the greats, like Nico Ladenis and Ferran Adria at elBulli, and oversaw the opening of 5 ‘Maze’ Restaurants with Gordon Ramsay.
+</string>
+    <string name="two_cat_addr">MSY Tower, Pescadores Rd. Cebu Business Park, Cebu City)</string>
+    <string name="two_cat_work"> Tuesday – Friday 7:30am-12am
+                                 \n\nSaturday – Sunday 8am-12am
+</string>
+    <string name="two_cat_tel">+63 32 255–8249</string>
+    <string name="two_cat_site">https://www.ourawesomeplanet.com/awesome/2016/12/cebu-food-trip.html</string>
+
+    <string name="three_cat_name">Tymad Bistro</string>
+    <string name="three_cat_desc">Tymad Bistro is our go-to place for authentic French pastries and dishes in Cebu!
+                                  Owned by a French Chef, Philippe Estienne, who settled in Cebu with his Filipina wife, the bistro is popular for their perfectly buttery, light, and flaky croissants, chocolats, and kouign amann–all baked fresh daily.
+</string>
+    <string name="three_cat_addr">Maria Luisa Road Banilad, Cebu</string>
+    <string name="three_cat_work">
+                                  Monday – Closed
+                                  \n\nTuesday to Thursday – 7:00am-10:00pm
+                                  \n\nFriday to Saturday – 10:00am-11:00pm
+                                  \n\nSunday – 10:00am-10:00pm
+    </string>
+    <string name="three_cat_tel">(032) 239 7385</string>
+    <string name="three_cat_site">https://www.ourawesomeplanet.com/awesome/2016/12/cebu-food-trip.html</string>
+
+    <string name="circa_name">Circa 1900</string>
+    <string name="circa_desc">Circa 1900 is a casual dining restaurant that focuses on incorporating local technics and ingredients into international cuisine. Circa 1900 offers an eclectic menu with plenty of choices that range from the familiar to the exotic.
+                              Cebu City has always drawn skilled chefs to the local culinary scene, many of whom are continually carving out their reputations in the “Queen City of The South,” making Cebu one of the Philippines’ gastronomic hotspots.
+    </string>
+    <string name="circa_addr">Sanjercas Ville Ext Rd Cebu City, Cebu)</string>
+    <string name="circa_work"> Daily From 11am – 12 am</string>
+    <string name="circa_tel"> (032) 239 6265</string>
+    <string name="circa_site">https://www.ourawesomeplanet.com/awesome/2016/12/cebu-food-trip.html</string>
+
+    <string name="matias_name">Matias BBQ</string>
+    <string name="matias_desc">One favorite street food of Pinoys is barbecue–pork or chicken meat or giblets skewered on sticks and cooked over a charcoal grill.
+                        For Cebuanos, the go-to place for barbecue is Matias in Mandaue City. Nestled under the shade of sweet star apple trees, this open-air eatery sells very affordable pork barbecue, chicken barbecue, chorizo, pork belly, balbacua, and other local dishes.
+
+    </string>
+    <string name="matias_addr">Matias BBQ (A. S. Fortuna Street, Banilad, Mandaue City)</string>
+    <string name="matias_work"> Monday – Sunday, 11:30 AM to 10 PM</string>
+    <string name="matias_tel">  (32) 3452164, (32) 3469123</string>
+    <string name="matias_site">https://www.ourawesomeplanet.com/awesome/2016/12/cebu-food-trip.html</string>
+
+    <string name="haus_name">Johnna’s Liempo Haus</string>
+    <string name="haus_desc">: Ask any of the locals for the original liempo in Balamban and they’ll direct you to Johnna’s Liempo Haus.
+                \n\nBalamban, located in the western part of Cebu, is known for its distinctive method of grilling Liempo using traditional herbs and spices, similar to how you would prepare Lechon Cebu
+    </string>
+    <string name="haus_addr">Balamban Public Market</string>
+    <string name="haus_work"> Monday – Sunday, 11:30 AM to 10 PM</string>
+    <string name="haus_tel"> +63 918 206–5607</string>
+    <string name="haus_site">https://www.ourawesomeplanet.com/awesome/2016/10/johnnas-liempo-the-original-balamban-liempo.html</string>
+
+    <string name="zubo_name">Zubuchon – Best Lechon in Cebu</string>
+    <string name="zubo_desc">I shall jump straight to the best thing that I had in Cebu – Zubuchon lechon (whole roasted pig). All you need to know is Zubuchon has the best lechon. You MUST TRY it if you are in Cebu.
+            Besides the famous lechon (P240 half kilo or SGD$7/P450 for 1kg or SGD$13.2), we also had the equally good Lechon Sisig (P190). Zubuchon has other dishes like Lechon Crispy Pata (P450 or SGD$13), Roasted Pork Belly (P380 or SGD$11) and Slow-Cooked Pork Belly (P220 or SGD$6.5) on the menu.
+            \n\nNote: Zubuchon is no longer at Banilad Town Center.
+    </string>
+    <string name="zubo_addr">Zubuchon Lechon (One Mango Mall General Maxilom Ave, Cebu City)</string>
+    <string name="zubo_work"> Monday – Sunday, 12:00 PM to ( PM</string>
+    <string name="zubo_tel"> : +63 32 2395697</string>
+    <string name="zubo_site">https://www.ladyironchef.com/2011/10/10-things-to-eat-cebu-philippines/</string>
+
+
+
+
+
+    <!--Музеи-->
+    <string name="one_mus_name">Paradise Beach Bantayan Island</string>
+    <string name="one_mus_desc">Paradise Beach is a secluded beach in the southern part of Bantayan Island. It is reportedly owned by the same owners of Santa Fe Beach Club and Ogtong Cave Resort but lack of road access has prevented the building of a resort here.</string>
+    <string name="one_mus_addr">Santa Fe Cebu</string>
+    <string name="one_mus_work">N/A</string>
+    <string name="one_mus_tel">N/A</string>
+    <string name="one_mus_site">https://sugbo.ph/2017/budget-sta-fe-bantayan-island/</string>
+
+    <string name="two_mus_name">Lambug Public Beach</string>
+    <string name="two_mus_desc">The splendid Lambug Beach is still a well kept secret. Even this Beach with powder white sand, lined up with coconut trees and crystal clear water is the dream beach of all nature enthusiasts, it is still an almost unknown paradise. Come to Lambug Beach at Badian and enjoy wonderful and relaxed moments away from the busy life in pure nature.</string>
+    <string name="two_mus_addr">Lambug Beach Rd, Badian, Cebu</string>
+    <string name="two_mus_work">N/A</string>
+    <string name="two_mus_tel">N/A </string>
+    <string name="two_mus_site">https://www.sojournsandstories.com/2017/04/26/lambug-beach-badian/</string>
+
+    <string name="three_mus_name">Bounty Beach</string>
+    <string name="three_mus_desc">Bounty Beach is located in the southern part of Malapascua, a small island off the northeastern coast of Cebu. To get here from Cebu, take a boat from the port of Maya. Several ferry services operate during the day, but they don’t always adhere to the timetable, tending to depart when a boat is full of passengers. Some diving centers offer transfer services to the island.</string>
+    <string name="three_mus_addr">Bounty Beachfront, Daanbantayan, Cebu</string>
+    <string name="three_mus_work"> N/A</string>
+    <string name="three_mus_tel">N/A</string>
+    <string name="three_mus_site">https://www.expedia.com.ph/Bounty-Beach-Daanbantayan.d6252414.Place-To-Visit</string>
+
+    <string name="four_mus_name">Hermit’s Cove</string>
+    <string name="four_mus_desc">This beautiful cove is tucked below the cliff which overlooks the blue sea and towards the Tañon Strait. The cove’s beach is white and clean. Its water is clear, and it is lined with coconut trees and other plants and verdant trees.</string>
+    <string name="four_mus_addr">Kantabogon Rd, Aloguinsan, Cebu</string>
+    <string name="four_mus_work">N/A</string>
+    <string name="four_mus_tel">N/A</string>
+    <string name="four_mus_site">https://outoftownblog.com/hermits-cove-aloguinsans-best-kept-secret/#.XFRrxfZuLIU</string>
+
+    <string name="five_mus_name">Basdaku Beach</string>
+    <string name="five_mus_desc"> Basdaku beach, located in Moalboal, has a one kilometer white sandy coastline. There are many beach resorts in the area so you will have a lot of choices when you go there. 6 Kilometers away from basdaku, there’s also another beach called the Panagsama beach. Unfortunately, the place was blown a typhoon in 1984. So most tourists who plans to have the white sand beach experience choose basdaku.</string>
+    <string name="five_mus_addr">Basdaku, Moalboal, Cebu</string>
+    <string name="five_mus_work">N/A</string>
+    <string name="five_mus_tel">N/A</string>
+    <string name="five_mus_site">http://www.travellingthephilippines.info/basdaku-beach-in-moalboal/</string>
+
+    <string name="langub_name">Langub Beach</string>
+    <string name="langub_desc"> Sugar Beach is the kilometer-long sugary brown-colored sand beach in Sipalay. It is an ideal destination for those who want to relax and unwind after exploring the underrated idyllic city of Sipalay in Negros Occidental. Sit back, relax and unwind while lazing on the sand and watching the sunset.</string>
+    <string name="langub_addr">Sugar Beach, Barangay Nauhang, Negros Occidental</string>
+    <string name="langub_work">N/A</string>
+    <string name="langub_tel">N/A</string>
+    <string name="langub_site">https://www.philippinebeaches.org/sugar-beach-langub-beach-negros-occidental-important-tips/</string>
+
+    <!--Music-->
+    <string name="waterfront_name">Waterfront Cebu City Hotel and Casino</string>
+    <string name="waterfront_desc">Lorem Ipsum Dolor</string>
+    <string name="waterfront_addr">Salinas Dr. 6000 Cebu City  </string>
+    <string name="waterfront_work">N/A</string>
+    <string name="waterfront_tel">+63 32 232 6888</string>
+    <string name="waterfront_site">http://www.waterfronthotels.com.ph/waterfront/waterfront-cebu-city-hotel-and-casino/</string>
+
+    <string name="north_name">SM City Cebu - Northwing</string>
+    <string name="north_desc">Lorem Ipsum Dolor</string>
+    <string name="north_addr">North Reclamation Area 6000 Cebu City </string>
+    <string name="north_work">N/A</string>
+    <string name="north_tel">+63 32 231 0557</string>
+    <string name="north_site">https://www.smsupermalls.com/</string>
+
+    <string name="pacific_name">Pacific Grand Ballroom</string>
+    <string name="pacific_desc">Lorem Ipsum Dolor</string>
+    <string name="pacific_addr">: Waterfront Cebu City Hotel and Casino, Salinas Drive, Lahug, 6000 Cebu City
+    </string>
+    <string name="pacific_work">N/A</string>
+    <string name="pacific_tel">+63 32 232 6888</string>
+    <string name="pacific_site"> http://www.waterfronthotels.com.ph/waterfront/waterfront-cebu-city-hotels-casino//</string>
+
+    <string name="blu_name">Radisson Blu Hotel - Lobby Lounge</string>
+    <string name="blu_desc">Lorem Ipsum Dolor</string>
+    <string name="blu_addr">Radisson Blu Hotel 6000 Cebu City</string>
+    <string name="blu_work">N/A</string>
+    <string name="blu_tel">N/A</string>
+    <string name="blu_site">http://internetworks.tumblr.com/</string>
+
+    <string name="cubana_name">Cubana</string>
+    <string name="cubana_desc">Lorem Ipsum Dolor</string>
+    <string name="cubana_addr">Gen. Maxilom Ave (aka Mango Ave) (btwn Gotianuy St anf F. Manalo St) 6000 Cebu City</string>
+    <string name="cubana_work">N/A</string>
+    <string name="cubana_tel">N/A</string>
+    <string name="cubana_site">  http://twitter.com/@cubanacebu</string>
+
+    <string name="marshall_name">Marshalls Irish Pub</string>
+    <string name="marshall_desc">Lorem Ipsum Dolor</string>
+    <string name="marshall_addr">Mango Square, Mango Ave. (Juana Osmena St.)6000 Cebu City </string>
+    <string name="marshall_work">N/A</string>
+    <string name="marshall_tel">+63 917 631 2413</string>
+    <string name="marshall_site"> marshallsirishpub.com</string>
+
+    <string name="open_name">Open Mic</string>
+    <string name="open_desc">Lorem Ipsum Dolor</string>
+    <string name="open_addr">Labangon 6000 Cebu City </string>
+    <string name="open_work">N/A</string>
+    <string name="open_tel">+63 917 327 7168</string>
+    <string name="open_site">N/A</string>
+
+    <string name="blubar_name">Blue Bar and Hill at Marco Polo Plaza</string>
+    <string name="blubar_desc">Lorem Ipsum Dolor</string>
+    <string name="blubar_addr"> Nivel Hills Cebu City </string>
+    <string name="blubar_work">N/A</string>
+    <string name="blubar_tel">+63 32 253 1111</string>
+    <string name="blubar_site">https://www.facebook.com/pages/Blu-Bar-and-Grill/1800084210308815</string>
+    //END
+
+    <!-- EROUTE & DICTIONARY -->
+    //SplashScreen Desc
+    <string name="descriptionSplashScreen">Cebu City Guide with Dialect Translator</string>
+    <string name="title_to_splash">Splash Screen</string>
+    <string name="splashText2">Dialect Translator</string>
+    <string name="splashText1">With</string>
+    <string name="splashText">Cebu City Guide</string>
+
+    //Onboarding Screen Desc
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="translator">TRANSLATOR</string>
+    <string name="translatorText">Translates English words into two languages (Filipino, Cebuano)</string>
+    <string name="translate">LANGUAGE</string>
+    <string name="directions">DIRECTIONS</string>
+    <string name="directionText">Helps you find a place in Cebu such as tourist spots</string>
+    <string name="dictionary">DICTIONARY</string>
+    <string name="dictionaryText">Contains words of languages alphabetically arranged with meanings</string>
+    <string name="opening">opening</string>
+    <string name="guide">Feel free to use me !</string>
+
+    //Discoveries Part
+    <string name="show_all">Show All</string>
+    <string name="sea_turtle_lagoon_title">Sea Turtle Lagoon</string>
+    <string name="basilica_minore_title">Basilica Minore del Santo Niño</string>
+    <string name="cebu_taoist_temple_title">Cebu Taoist Temple</string>
+    <string name="cebu_westown_lagoon_title">Cebu Westown Lagoon</string>
+    <string name="fort_san_pedro_title">Fort San Pedro</string>
+    <string name="mt_babag_title">Hike Mt Babag</string>
+    <string name="anzani_cebu_title">Anzani</string>
+    <string name="circa_1900_title">Circa 1900</string>
+    <string name="top_of_cebu_title">Top of Cebu</string>
+    <string name="tavolata_cebu_title">Tavolata</string>
+    <string name="abaca_baking_title">Abaka Baking Company</string>
+    <string name="abaseria_cafe_title">Abaseria Deli and Cafe </string>
+    <string name="wish_bar_title">Wish Bar Lounge Restaurant</string>
+    <string name="blu_bar_title">Blu Bar and Grill</string>
+    <string name="morals_malice_title">Morals and Malice Bar</string>
+    <string name="trademark_bar_title">Trademark Bar and Lounge</string>
+    <string name="jump_shot_title">Jump Shot Sports Bar</string>
+    <string name="sirao_peak_title">Sirao Peak Hiking</string>
+    <string name="oslob_cebu_ttile">Oslob Whale Sharks</string>
+    <string name="kawasan_falls_ttile">Kawasan Falls</string>
+
+
+    <string name="natural_wonder">Natural Wonder</string>
+    <string name="oslob_cebu">Snorkeling</string>
+    <string name="mountain_hiking">Mountain Hiking</string>
+    <string name="top_activities">Top Activities</string>
+    <string name="summer_gate_away">Summer Gate Away</string>
+    <string name="catholic_church">Catholic Church</string>
+    <string name="horticulture_display">Vibrant Horticulture display</string>
+    <string name="top_restaurants">Top Restaurants</string>
+    <string name="mountain_top">Mountain Top Restaurant</string>
+    <string name="tavolata_cebu">One of the BEST Italian Restaurants in Cebu!</string>
+    <string name="breakfast_place">Fantastic Breakfast Place</string>
+    <string name="abaca_baking_company">Artisan crafted breads</string>
+    <string name="abaseria"> Kasambagan- Casual Dining</string>
+    <string name="best_outdoors">All-in-one Outdoors</string>
+    <string name="top_places">Top Places</string>
+    <string name="odell_microbrew">Decent Draft Microbrews</string>
+    <string name="top_bars_nightlife">Top Bars/Nightlife</string>
+    <string name="wish_bar">American, Brew Pub, Asian, Grill, Pub</string>
+    <string name="blu_bar">Moonlit Wine Dinner</string>
+    <string name="morals_malice_bar">Where art meets alcohol</string>
+    <string name="trademark_bar_beers">Superbly Crafted Cocktails</string>
+    <string name="sports_bar">Sports Bar with pool table</string>
+    <string name="sample_detailed_description">Detailed description of the attraction</string>
+    <string name="show_map">show in map</string>
+
+    <string name="fort_san_pedro_detailed_desc">
+       The Fort San Pedro (or the Fuerte de San Pedro in Spanish) is a military defence structure
+        in Cebu. It was built by the Spaniards under the command of Miguel Lopez de Legazpi, the
+        first governor of Captaincy General of the Philippines. The original fort built right after
+        the arrival of Legaspi and his expedition was made of wood. It was then replaced in the 17th
+        century with a stone fort to repel Muslim raiders.
+    </string>
+
+    <string name="mt_babag_detailed_desc">
+        Up for a challenging trek? Lace up your hiking boots, and go for a slightly challenging hike
+        up Mount Babag – a playground and practice ground for seasoned mountaineers in Cebu.
+    </string>
+
+    <string name="sirao_peak_detailed_desc">
+       Go on a hiking adventure to Sirao Peak, or also known as Mount Kan-Irag, and drink in the
+        magnificent vistas from the top. Better yet, pitch a tent, camp, and see the Metro Cebu
+        glitter from the summit at night.
+    </string>
+
+    <string name="oslob_cebu_detailed_desc">
+       Undoubtedly, one of the most popular — talking about worldwide recognition — tourist
+        attractions in Cebu is the Whale Shark Watching or Swimming with the Whale Sharks in Oslob,
+        Southern Cebu. And here’s everything you need to know about this famous yet controversial
+        spot in Cebu.
+    </string>
+
+    <string name="kawasan_falls_detailed_desc">
+       The Kawasan Falls is an inviting natural wonder that delights its visitors with its dashing
+        ice-cool waters, breathtaking natural backdrop, and relaxing vibe. A favorite weekend
+        getaway among city dwellers in Cebu, this spectacular waterfall also has a plethora of
+        adventures to offer to outdoor aficionados, including trekking, rock climbing,
+        canyoneering, waterfall jumping and rapelling.
+    </string>
+
+    <string name="cebu_westown_lagoon_detailed_desc">
+        Cebu Westown Lagoon. A surprisingly refreshing oasis for the travel-weary tourists ideally
+        situated in the midst of two bustling cities, Cebu and Mandaue. Guests could unwind as
+        they dip in the breathtaking man-made lagoon or simply soak their cares away in two outdoor
+        soothing Jacuzzi pools. Modern, spacious and well-appointed rooms exude the feel of a” home
+        away from home”.
+    </string>
+
+    <string name="cebu_taoist_temple_detailed_desc">
+        Cebu Taoist Temple (Chinese: 宿霧定光寶殿) is a Taoist temple located in Beverly Hills
+        Subdivision of Cebu City, Philippines. The temple is built by Cebus substantial Chinese
+        community in 1972.[1] With an elevation of 110 metres (360 ft) above sea level, the temple
+        is a towering, multi-tiered, multi-hued attraction accessible by three separate winding
+        routes.
+    </string>
+
+    <string name="sea_turtle_lagoon_detailed_desc">
+        Still looking for the perfect place for your next summer getaway? Check out the Sea Turtle
+        Lagoon Resort in Tabogon, Northern Cebu.Tabogon is the town situated in between Borbon and
+        Bogo City. It’s a long travel but once you get to the place, it will all be worth it. It’s
+        one of the most remote and relatively less developed in Cebu yet blessed with natural
+        sceneries — like a “paradise on earth” where the sea and heaven meet.From the interesting
+        rock formations to the vast ocean where sea turtles appear, to the flowers and
+        trees that surround the resort, the Sea Turtle Lagoon Resort is indeed a refreshing getaway
+        place Though there’s no swimming pool in the resort, the vitamin sea is all you need. You
+        can also arrange a bangka tour going to Bogo City’s Capitancillo Islet.
+    </string>
+
+    <string name="basilica_minor_detailed_desc">
+        The Basílica Minore del Santo Niño de Cebú (Minor Basilica of the Holy
+        Child of Cebú) commonly known as the Santo Niño Basilica, is a minor
+        basilica in Cebu City in the Philippines that was founded in the 1565
+        by Fray Andrés de Urdaneta, O.S.A. and Fray Diego de Herrera, O.S.A..
+        The oldest Roman Catholic church in the country, it is built on the
+        spot where the image of the Santo Niño de Cebú was found during the
+        expedition of Miguel López de Legazpi.
+    </string>
+
+    <string name="anzani_cebu_detailed_desc">
+        Anzani Restaurant brings a taste of New Mediterranean cuisine to Cebu. Owned by couple Chef
+        Marco and Kate Anzani, it serves a unique type of cuisine described as a blend of coastal
+        Mediterranean flavors, basically consisting of tomatoes, olives, chickpeas, herbs, lemon,
+        and cheese.
+    </string>
+
+    <string name="circa_1900_detailed_desc">
+        A cluster of ancestral residences restored into a lifestyle and leisure destination, a quick
+        escape from the hectic lifestyle in the growing city of Cebu.Circa 1900 Casa Uno was opened
+        on March 2014 by Executive Chef Steve and his wife, Eya Shrimski. The property is a colonial
+        house restored into a restaurant, piano bar and function venue in which great efforts have
+        been taken to retain the original architecture and material of its era.
+    </string>
+
+    <string name="top_of_cebu_detailed_desc">
+        With Metro Cebu’s apparent economic boom with its unstoppable growing number of skyscrapers,
+        it would definitely be an amazing experience to witness a panoramic view of the city’s
+        undeniably beautiful skyline. Opened just last August 2017, Tops of Cebu is the newest
+        mountain-top restaurant in Busay that offers not just delectable dishes, but also an
+        incredible experience to be on top of Cebu.
+    </string>
+
+    <string name="tavolata_cebu_detailed_desc">
+    TAVOLATA is an Italian bistro that serves simple Italian dishes from The Abaca Group
+        (known for really yummy Cebu restaurants like Maya Mexican Restaurant and Abaca Restaurant
+        in Mactan.)Its name means “to gather around a table“, and the restaurant is designed to be
+        a great place to hang out with friends or to celebrate special occasions.It uses the finest
+        ingredients from Italy like Finestra in Solaire, and has that informal feel,stylish ambiance
+        and cult following like Wildflour in Manila.
+    </string>
+
+    <string name="abaca_baking_detailed_desc">
+        OUR FROM SCRATCH BAKERY AND CAFÉ CONCEPT FEATURING THE FINEST CROISSANTS, BAKED GOODS AND
+        PASTRIES IN THE METRO. WE SERVE ALL DAY BREAKFAST, AS WELL AS COMFORT CLASSICS IN SELECT
+        LOCATIONS AROUND THE CITY. JOIN US FOR THE FINEST COFFEES AND CONCOCTIONS IN CEBU.
+    </string>
+
+    <string name="abaseria_deli_detailed_desc">
+        Situated in a serene area of Cebu City, Abaseria Deli and Café is a popular dining place for
+        many locals and tourists.The Abaseria is well-loved for their delicious authentic Filipino
+        dishes. Customers can enjoy delicacies from various Philippine cities and provinces. Their
+        meals are quite affordable, which makes it more attractive to diners. Most of their dishes
+        cost Php60 to Php150. With a Php200 budget, you can already enjoy a complete meal.
+    </string>
+
+
+    <string name="wish_cebu_detailed_desc">
+        Wish Cebu is a Bar, Lounge, and Restaurant located at Plaza Nouvelle, Unit 3, 2E. Benedicto
+        Street Cebu.It features a cozy ambience, great music, sumptuous food and mouthwatering
+        drinks.Wish Cebu is a good chill out place for night out between friends.
+    </string>
+
+    <string name="blu_bar_detailed_desc">
+        Seafood on ice, it said on the menu. It doesn’t quite describe the delight of an appetizer
+        that formally started our Moonlit Wine Dinner at the Blu Bar and Grill of Marco Polo Plaza
+        Cebu. Smoke enveloped the dish as it was brought to the table over exclamations of amazement,
+        a pair each of fresh shrimps, mussels, scallops served atop a block of ice shaped like a
+        bowl.
+    </string>
+
+    <string name="morals_malice_detailed_desc">
+        BInfused with cloves, cinnamon, a hint of ginger and cardamom or a mix of cream cheese,
+        salted caramel, blended oatmeal cookies or even honey, lemon juice, rosemary and fig syrup,
+        your regular coffee, smoothie, or cocktail become so much more at Cebu’s new lifestyle
+        destination Morals and Malice.
+    </string>
+
+    <string name="trademark_bar_detailed_desc">
+       Trademark Bar and Lounge is one of the best nightlife locations in Cebu. Specializing in
+        Hip hop, R and B, and Trap music, Trademark is designed for those who are looking for amazing
+        music, warm ambiance, and the best service Cebu has to offer
+    </string>
+
+    <string name="jump_shot_bar_detailed_desc">
+        Home town sports bar with pool table, western and local food, darts, live music, great
+        drink deals and a friendly staff. Doing our best to be your home away from home......Coming
+        from Banilad on AS Fortuna...just before JCenter mall on the left across from the Petron
+        station (above M Lhuellier)  Parking behind the bar shared with Nonki
+    </string>
+    <string name="attraction_card_image_view_content_desc">ImageView displaying the attraction\'s image file</string>
+    <string name="list_item_image_view_content_desc">Image of Attraction</string>
+    <string name="list_item_right_arrow_image_content_desc">Right arrow image to move forward to the next activity</string>
+    <string name="detail_image_cd">Image of Attraction</string>
+
+    <!-- Map query strings -->
+    <string name="mq_trademark_bar">geo:10.314058,123.926867?q=Trademark+Bar+and+Lounge</string>
+    <string name="mq_anheuser_busch">geo:0,0?q=Anheuser+Busch+Fort+Collins</string>
+    <string name="mq_abaca_baking">geo:10.328073,123.909835?q=Abaca+Baking+Company+Cebu</string>
+    <string name="mq_abaseria_deli">geo:10.326305,123.912603?q=Abaseria+Deli+Cafe+Cebu</string>
+    <string name="mq_fort_san_pedro">geo:10.292723,123.905651?q=Fort+San+Pedro+Cebu</string>
+    <string name="mq_morals_malice">geo:10.329047,123.909261?q=Morals+and+Malice</string>
+    <string name="mq_coopersmith">geo:0,0?q=Coopersmith\'s+Pub+&amp;+Brewing+Fort+Collins)</string>
+    <string name="mq_jump_shot_bar">geo:10.336488,123.932481?q=Jump+Shot+Sports+Bar</string>
+    <string name="mq_cebu_taoist_temple">geo:10.334240,123.887951?q=Cebu+Taoist+Temple</string>
+    <string name="mq_sea_turtle_lagoon">geo:10.955104,124.038543?q=Sea+Turtle+Lagoon+Tabogon+Cebu</string>
+    <string name="mq_cebu_westown_lagoon">geo:10.322287,123.928967?q=Cebu+Westown+Lagoon+Cebu</string>
+    <string name="mq_lucile">geo:0,0?q=Lucile\'s+Fort+Collins</string>
+    <string name="mq_blu_Bar">geo:10.341844,123.897146?q=Blu+Bar+Grill</string>
+    <string name="mq_circa_1900">geo:10.326882,123.899867?q=Circa+1900+Cebu</string>
+    <string name="mq_anzani_cebu">geo:10.335580,123.896814?q=Anzani+Cebu</string>
+    <string name="mq_basilica_minor">geo:10.294239,123.902187?q=Basilica+Minore+del+Santo+Niño</string>
+    <string name="mq_new_belgium">geo:0,0?q=New+Belgium+Brewing+Company+Fort+Collins</string>
+    <string name="mq_odell_brewing">geo:0,0?q=Odell+Brewing+Company+Fort+Collins</string>
+    <string name="mq_top_of_cebu">geo:10.371482,123.870915?q=Top+of+Cebu</string>
+    <string name="mq_wish_bar">geo:10.309615,123901239?q=Wish+Resto+Bar</string>
+    <string name="mq_tavolata_cebu">geo:10.341579,123.919540?q=Tavolata+Cebu</string>
+    <string name="mq_mt_babag">geo:10.375628,123.855314?q=Babag+Apas+Cebu+City</string>
+    <string name="mq_sirao_peak">geo:10.401367,123.869706?q=Sirao+Peak+Cebu+City+Cebu</string>
+    <string name="mq_oslob_cebu">geo:9.463518,123.379712?q=Natalio+Bacalso+Avenue+,Oslob+Cebu</string>
+    <string name="mq_kawasan_falls">geo:9.802461,123.374164?q=Kawasan+Falls</string>
+
+    //Burger Bar
+    <string name="spinner_title">Route</string>
+    <string name="title_activity_dictionary">Dictionary Activity</string>
+    <!-- END -->
 </resources>

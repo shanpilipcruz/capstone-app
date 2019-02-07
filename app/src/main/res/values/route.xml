@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="x01K">"Urgello St. - Sacred Heart Hospital - South Western University - E. Mall - L. Kilat St. - Colon St. Metro Gaisano (colon) - Collonade Supermarket - University of the Visayas - Gaisano Main - Brgy. Parian - Zulueta St. - MJ. Cuenco Ave. - NSO - General Maxilom Ave. - A. Soriano Ave. - SM - SM Hypermarket - North Bus Terminal."</string>
+    <string name="xx01K">"Parkmall - MO2 - North Bus Terminal - Sm Hypermarket - Sm City Cebu - White Gold Club - Queen City Memorial Garden - White Gold House - T. Padilla St. - NSO - CITU - V. Gullas St. - Manalili St. - Legaspit St. - Collonade Supermarket - Pelaez St. - Sancianko St. - Sogo HOtel - GV Tower Hotel - E.Mall - Urgello St. - South Western University - Sacred Heart Hospital."</string>
+    <string name="x14D">"From ayala terminal - harolds hotel - escario st. - provincial capitol - jones avenue - fuente osmena circle - robinsons cybergate - chung hua hospital - robinsons place cebu (fuente) - f. ramos st. - saint paul college foundation (ramos) - university of san carlos - junquera st. - colon st.- gaisano main - university of the visayas - v. gullas st. - manalili st. - metro gaisano - osmena boulevard - landbank - central bank of the philippines - abellana sports complex - crown regency hotel - back to fuente osmena circle - jones avenue - escario st. - philhealth - back to ayala terminal."</string>
+    <string name="xx14D">"metro gaisano - osmena boulevard - landbank - central bank of the philippines - abellana sports complex - crown regency hotel - back to fuente osmena circle - jones avenue - escario st. - philhealth - back to ayala terminal."</string>
+    <string name="xxx14D">"ayala to escario st.\n" +
+                                "ayala to provincial capitol\n" +
+                                "ayala to osmena blvd.\n" +
+                                "ayala to cebu doctors hospital\n" +
+                                "ayala to fuente osmena\n" +
+                                "ayala to robinsons fuente\n" +
+                                "ayala to f. ramos st.\n" +
+                                "ayala to cogon ramos\n" +
+                                "ayala to university of san carlos\n" +
+                                "ayala to junquera st\n" +
+                                "ayala to colon st.\n" +
+                                "ayala to gaisano main\n" +
+                                "ayala to university of the visayas\n" +
+                                "ayala to shamrock\n" +
+                                "ayala to manalili st.\n" +
+                                "ayala to metro colon\n" +
+                                "escario to fuente osmena\n" +
+                                "escario to f. ramos st.\n" +
+                                "escario to university of san carlos\n" +
+                                "escario to colon st\n" +
+                                "escario to gaisano main\n" +
+                                "escario to shamrock\n" +
+                                "escario to manalili st.\n" +
+                                "capitol to fuente osmena\n" +
+                                "capitol to robinsons fuente\n" +
+                                "capitol to f. ramos st.\n" +
+                                "capitol to cogon ramos\n" +
+                                "capitol to university of san carlos\n" +
+                                "capitol to colon\n" +
+                                "capitol to gaisano main\n" +
+                                "fuente to ramos\n" +
+                                "fuente to colon\n" +
+                                "fuente to university of san carlos\n" +
+                                "fuente to gaisano main\n" +
+                                "fuente to shamrock\n" +
+                                "fuente to metro colon\n" +
+                                "ramos to colon\n" +
+                                "ramos to gaisano main\n" +
+                                "ramos to usc "</string>
+    <string name="x04L">"Lahug- JY Square Mall - Gorordo Ave. - corner Sudlon - Corner Beverly Hills - Corner Dep-ed (ecotech) - Mormons Church (Church of Jesus Christ of Latter-day Saints) - Lahug Brgy Hall - University of the Philippines (Cebu) - Sugbo Cultural Center - Harolds Hotel - Tonross Apartelle - The Golden Peak Hotel - N. Escario Hotel - Philhealth - Kuya J's Restaurant - Cebu Parklane Hotel - Grand Cenia Hotel - Hongkong Plaza Hotel - Cebu Business Park - Mindanao Ave. - Pag-ibig Fund - Ayala Center Cebu - Cardinal Rosales Ave. - Pope John Paul ll Ave. - PLDT - Carmelite Monastery - St. Joseph Parish (Mabolo Church) - Sm City Cebu."</string>
+    <string name="xx04L">"Sm City Cebu - Radisson Hotel - Sergio Osmena Blvd. - Kaohsiung St. - Cebu Daily News - A. Soriano Ave. - Juan Luna Ave. ext. - Pope John Paul ll Ave. - Mabolo Church - Andoks Mabolo - Carmelite Monastery - San Carlos Seminary College - TESDA Vll - Salinas Drive - Cebu IT Park - Waterfront Hotel - Crowne Garden Hotel - Jy Square Mall - Lahug."</string>
+    <string name="x03A">"Carbon Public Market - MC. Briones St. - Senior Citizens Plaza - Cebu City Hall - Basilica del Sto. Nino - La Nueva Supermarket - Prince warehouse (city Hall) - Lapulapu St. - MCWD - DFA - COMELEC - DTI - Urdaneta St. - MJ. Cuenco ave. - CTU - Commission on Audit - NSO - Martires - CPILS - Museo Sugbo - Carreta Cemetery - Hipodromo - The Persimmon - Mabolo Church - Pope John Paull ll Ave. - Carmelite Monastery - PLDT - F. Cabahug St. - Brgy. Kasambagan - Castle Peak Hotel - Sarrosa International Hotel - Fooda Kasambagan - Citi Park Hotel - Rainforest Park - Synergis Center - Sykes Asia (Cebu) - Panagdait - Cityscape Hotel."</string>
+    <string name="xx03A">"Cityscape Hotel - Brgy, Kasambagan - F. Cabahug St. - Panagdait - Sykes Asia - Synergis Center - Rainforest Park - Citi Park Hotel - Fooda (Kasambagan) - Sarrosa International Hotel - Castle Peak Hotel - Pope John Paul II Ave. - PLDT Smart Communications - Camelite Monastery - Mabolo Church - MJ. Cuenco Ave. - The Persimmon - Hipodromo - Carreta Cemetery - Imus Ave. - MJ. Cuenco ave. - Museo Sugbo - CPILS - NSO - Cebu Technological University - V. Gullas St. - Gaisano Main - Manalili St. - Colonnade Supermarket - Progreso St. - Carbon Public Market."</string>
+    <string name="x17C">Carbon - MC. Briones St. - Cebu City Hall - Basilica del Sto. Nino - La Nueva Supermarket city hall - Lapulapu st. - MCWD - Legaspi St. - Cebu Metropolitan
+Cathedral - D. Jakosalem St. - Gaisano Main - University of the Visayas - Cogon Ramos - Ramos Public Market - F. Ramos St. - Robinsons Fuente - Mango Ave. - Raintree Mall - Mango Square - Horizons 101 - Fooda Saversmart - Gen Maxilom Ave. - Gorordo Ave. - Royal Concourse - Philhealth - Golden Peak Hotel - Tonros Apartelle - Harolds Hotel - University of the Philippines - lahug - Jy Square Mall - Salinas Drive - W. Geonson St. - Cebu IT Park - Apas.</string>
+    <string name="xx17C">Carbon - MC. Briones St. - Cebu City Hall - Basilica del Sto. Nino - La Nueva Supermarket city hall - Lapulapu st. - MCWD - Legaspi St. - Cebu Metropolitan
+Cathedral - D. Jakosalem St. - Gaisano Main - University of the Visayas - Cogon Ramos - Ramos Public Market - F. Ramos St. - Robinsons Fuente - Mango Ave. - Raintree Mall - Mango Square - Horizons 101 - Fooda Saversmart - Gen Maxilom Ave. - Gorordo Ave. - Royal Concourse - Philhealth - Golden Peak Hotel - Tonros Apartelle - Harolds Hotel - University of the Philippines - lahug - Jy Square Mall - Salinas Drive - W. Geonson St. - Cebu IT Park - Apas.</string>
+</resources>

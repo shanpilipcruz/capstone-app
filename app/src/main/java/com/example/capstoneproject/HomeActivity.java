@@ -92,16 +92,17 @@ public class HomeActivity extends AppCompatActivity
 
         if (id == R.id.navigation_home) {
             // Handle the discovery action
+        }  else if (id == R.id.navigation_activities) {
+
+        } else if (id == R.id.nav_eroute) {
+
         } else if (id == R.id.navigation_translator) {
             Intent translatorIntent = new Intent(this, SpeechActivity.class);
             startActivity(translatorIntent);
-        } else if (id == R.id.navigation_touristspots) {
-
-        } else if (id == R.id.navigation_dictionary) {
-
-        } else if (id == R.id.navigation_aboutus) {
-
-        } else if (id == R.id.nav_eroute) {
+        }else if (id == R.id.navigation_dictionary) {
+            Intent discoverIntent = new Intent(this, DiscoveryActivity.class);
+            startActivity(discoverIntent);
+        } else if (id == R.id.navigation_developers) {
 
         }
 
