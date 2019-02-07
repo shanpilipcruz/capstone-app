@@ -2,7 +2,7 @@
     <string name="app_name">Tourist Assistance App</string>
     <string name="title_home">Home</string>
     <string name="title_translator">Translator</string>
-    <string name="title_touristspots">Places</string>
+    <string name="title_touristspots">Activities</string>
     <string name="title_dictionary">Dictionary</string>
     <string name="title_about">Developers</string>
 

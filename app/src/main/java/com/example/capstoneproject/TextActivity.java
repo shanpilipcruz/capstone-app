@@ -23,7 +23,8 @@ import java.util.Locale;
 
 import static com.example.capstoneproject.SpeechActivity.textToSpeech;
 
-public class TextActivity extends HomeActivity implements TextToSpeech.OnInitListener, AdapterView.OnItemSelectedListener {
+public class TextActivity extends HomeActivity
+        implements TextToSpeech.OnInitListener, AdapterView.OnItemSelectedListener {
 
     public String selectLanguage = "";
     private Spinner languageSelector;

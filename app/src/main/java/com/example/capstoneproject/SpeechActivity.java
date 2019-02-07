@@ -110,7 +110,7 @@ public class SpeechActivity extends HomeActivity
                             @Override
                             public void run() {
                                 if (isFinal) {
-                                    mText.setText(null);
+                                    mText.setText(text);
                                 } else {
                                     mText.setText(text);
                                     SpeechOutput.setText(mText.getText().toString());

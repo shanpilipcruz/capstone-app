@@ -15,7 +15,7 @@
                 android:title="@string/title_translator" />
             <item
                 android:id="@+id/navigation_touristspots"
-                android:icon="@drawable/ic_capstone_places"
+                android:icon="@drawable/ic_capstone_activities"
                 android:title="@string/title_touristspots" />
             <item
                 android:id="@+id/navigation_dictionary"
