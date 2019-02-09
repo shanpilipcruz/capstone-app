@@ -10,22 +10,13 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
         <service android:name=".classes.SpeechService" />
         <activity android:name=".classes.SpeechHelper" />
-        <activity
-            android:name=".HomeActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".HomeActivity" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -43,12 +34,21 @@
         <activity android:name=".SpeechActivity_Text" />
 
         <activity android:name=".ActivitiesActivity" />
-        <activity android:name=".ActivitiesActivity_Main" />
+        <activity
+            android:name=".ActivitiesActivity_Main"
+            android:label="Activities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ActivitiesActivity_ListActivity"
             android:parentActivityName=".ActivitiesActivity_Main" />
         <activity android:name=".ActivitiesActivity_PagerActivity" />
 
         <activity android:name=".DictionaryActivity" android:label="@string/title_activity_dictionary"/>
+        <activity android:name=".DictionaryActivity_Main" android:label="Main Dictionary Activity"/>
         <activity android:name=".ElectronicRouteActivity" />
 
         <activity android:name=".DiscoveryActivity" />

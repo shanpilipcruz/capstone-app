@@ -6,7 +6,7 @@ import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
 public class DictionaryDatabase  extends SQLiteAssetHelper {
 
-    private static final String DATABASE_NAMES = "repos.db";
+    private static final String DATABASE_NAMES = "respo.db";
     private static final int DATABASE_VERSION = 5;
 
     public DictionaryDatabase(Context context) {

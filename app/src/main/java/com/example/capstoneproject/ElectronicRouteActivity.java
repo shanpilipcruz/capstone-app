@@ -19,7 +19,7 @@ public class ElectronicRouteActivity extends HomeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getLayoutInflater().inflate(R.layout.capstone_electronic_route_activity, frameLayout);
-        setTitle("eRoute");
+        setTitle("E-Route");
 
         Spinner spinner = findViewById(R.id.spinner);
         get_direction= findViewById(R.id.view_direction);

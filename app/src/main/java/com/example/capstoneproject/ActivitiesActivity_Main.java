@@ -16,7 +16,7 @@ public class ActivitiesActivity_Main extends HomeActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getLayoutInflater().inflate(R.layout.capstone_activities_activity_navigation, frameLayout);
-        setTitle("Activities");
+        setTitle("Discover");
 
         // Initialize list to store collection of attractions
         ActivitiesRepository repository = ActivitiesRepository.getInstance(this);

@@ -168,6 +168,7 @@ public class SpeechActivity extends HomeActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getLayoutInflater().inflate(R.layout.capstone_speech_activity, frameLayout);
+        setTitle("Speech Translator");
 
         textToSpeech = new TextToSpeech(this, this);
         SpeechOutput = findViewById(R.id.STTOutput);

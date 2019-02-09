@@ -128,7 +128,7 @@ public class SplashScreen_OnBoarding extends AppCompatActivity
     }
     private void startMainActivity(){
         setFirstTimeStartStatus(false);
-        startActivity(new Intent(SplashScreen_OnBoarding.this, HomeActivity.class));
+        startActivity(new Intent(SplashScreen_OnBoarding.this, ActivitiesActivity_Main.class));
         finish();
     }
     private void setStatusBarTransparent(){

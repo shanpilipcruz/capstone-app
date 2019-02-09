@@ -9,6 +9,7 @@ public class DiscoveryActivity extends HomeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getLayoutInflater().inflate(R.layout.capstone_discovery_activity, frameLayout);
+        setTitle("Activities");
 
         setCustomOnClickListener(R.id.hotel, DiscoveryActivity_Hotels.class);
         setCustomOnClickListener(R.id.cafes, DiscoveryActivity_Cafe.class);

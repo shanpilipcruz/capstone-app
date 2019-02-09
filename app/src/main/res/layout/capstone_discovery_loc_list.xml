@@ -7,5 +7,4 @@
     android:dividerHeight="0dp"
     android:drawSelectorOnTop="true"
     android:orientation="vertical">
-
 </ListView>

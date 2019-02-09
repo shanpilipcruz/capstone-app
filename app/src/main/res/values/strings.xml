@@ -48,8 +48,8 @@
     <string name="title_activity_copy">copy</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Cebu Tourist Guide with Dialect Translator</string>
-    <string name="nav_header_subtitle">Tourist Assistance Application</string>
+    <string name="nav_header_title">Lakbay Cebu</string>
+    <string name="nav_header_subtitle">Cebu Tourist Guide with Dialect Translator</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="Translate">translate</string>
     <string name="textToSpeech">Translate Text</string>
@@ -67,15 +67,11 @@
 
     // DISCOVERY
     <string name="category_cafes"> Mountains in Cebu</string>
-
     <string name="category_hotel"> Falls in Cebu</string>
-
     <string name="category_fam_attract"> Beaches in Cebu</string>
-
     <string name="category_museums"> Festivals in Cebu</string>
-
     <string name="category_catacombs">Foods in Cebu</string>
-    <string name="category_music">Musics in Cebu</string>
+    <string name="category_music">Songs in Cebu</string>
 
     <string name="one_hotel_name">Aguinid Falls</string>
     <string name="one_hotel_desc">Aguinid Falls is one of more than 11 waterfalls of the town of Samboan and perhaps the most popular of them all. It lies along the calcium-rich Tangbo River making the water beautifully turquoise and warm.</string>
@@ -451,9 +447,10 @@
     //SplashScreen Desc
     <string name="descriptionSplashScreen">Cebu City Guide with Dialect Translator</string>
     <string name="title_to_splash">Splash Screen</string>
+    <string name="splashText3">Cebu Tourist Guide</string>
     <string name="splashText2">Dialect Translator</string>
     <string name="splashText1">With</string>
-    <string name="splashText">Cebu City Guide</string>
+    <string name="splashText">Lakbay Cebu:</string>
 
     //Onboarding Screen Desc
     <string name="next">Next</string>
