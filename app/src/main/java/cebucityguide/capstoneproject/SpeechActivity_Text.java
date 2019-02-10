@@ -27,7 +27,7 @@ public class SpeechActivity_Text extends HomeActivity
         implements TextToSpeech.OnInitListener, AdapterView.OnItemSelectedListener {
 
     public String selectLanguage = "";
-    String inputtedText;
+    public static String inputtedText;
     private Spinner languageSelector;
     private EditText inputTextTranslator;
     private TextView translatedTextView;

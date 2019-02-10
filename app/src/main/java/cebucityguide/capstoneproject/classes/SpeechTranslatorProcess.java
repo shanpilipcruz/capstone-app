@@ -14,7 +14,7 @@ import static cebucityguide.capstoneproject.SpeechActivity.selectedLanguage;
 
 public class SpeechTranslatorProcess extends AsyncTask<Void, Void, Void> {
 
-    String textTranslatorText = mText.getText().toString();
+    public static String textTranslatorText = mText.getText().toString();
 
     @Override
     protected Void doInBackground(Void... voids) {
