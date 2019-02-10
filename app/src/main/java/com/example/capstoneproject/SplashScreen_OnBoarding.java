@@ -126,11 +126,13 @@ public class SplashScreen_OnBoarding extends AppCompatActivity
             dotstv[page].setTextColor(Color.parseColor("#ffffff"));
         }
     }
+
     private void startMainActivity(){
         setFirstTimeStartStatus(false);
         startActivity(new Intent(SplashScreen_OnBoarding.this, ActivitiesActivity_Main.class));
         finish();
     }
+
     private void setStatusBarTransparent(){
         if (Build.VERSION.SDK_INT >= 23){
             getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE|View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
