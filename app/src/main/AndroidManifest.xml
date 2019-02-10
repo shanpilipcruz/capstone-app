@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.capstoneproject">
+    package="cebucityguide.capstoneproject">
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,11 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <service android:name=".classes.SpeechService" />
-        <activity android:name=".classes.SpeechHelper" />
-        <activity android:name=".HomeActivity" />
+        <service android:name="cebucityguide.capstoneproject.classes.SpeechService" />
+        <activity android:name="cebucityguide.capstoneproject.classes.SpeechHelper" />
+        <activity android:name="cebucityguide.capstoneproject.HomeActivity" />
         <activity
-            android:name=".SplashScreen"
+            android:name="cebucityguide.capstoneproject.SplashScreen"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,15 +27,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SplashScreen_OnBoarding"
+            android:name="cebucityguide.capstoneproject.SplashScreen_OnBoarding"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
-        <activity android:name=".SpeechActivity" />
-        <activity android:name=".SpeechActivity_Text" />
+        <activity android:name="cebucityguide.capstoneproject.SpeechActivity" />
+        <activity android:name="cebucityguide.capstoneproject.SpeechActivity_Text" />
 
-        <activity android:name=".ActivitiesActivity" />
+        <activity android:name="cebucityguide.capstoneproject.ActivitiesActivity" />
         <activity
-            android:name=".ActivitiesActivity_Main"
+            android:name="cebucityguide.capstoneproject.ActivitiesActivity_Main"
             android:label="Activities"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -43,21 +43,21 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivitiesActivity_ListActivity"
-            android:parentActivityName=".ActivitiesActivity_Main" />
-        <activity android:name=".ActivitiesActivity_PagerActivity" />
+        <activity android:name="cebucityguide.capstoneproject.ActivitiesActivity_ListActivity"
+            android:parentActivityName="cebucityguide.capstoneproject.ActivitiesActivity_Main" />
+        <activity android:name="cebucityguide.capstoneproject.ActivitiesActivity_PagerActivity" />
 
-        <activity android:name=".DictionaryActivity" android:label="@string/title_activity_dictionary"/>
-        <activity android:name=".DictionaryActivity_Main" android:label="Main Dictionary Activity"/>
-        <activity android:name=".ElectronicRouteActivity" />
+        <activity android:name="cebucityguide.capstoneproject.DictionaryActivity" android:label="@string/title_activity_dictionary"/>
+        <activity android:name="cebucityguide.capstoneproject.DictionaryActivity_Main" android:label="Main Dictionary Activity"/>
+        <activity android:name="cebucityguide.capstoneproject.ElectronicRouteActivity" />
 
-        <activity android:name=".DiscoveryActivity" />
-        <activity android:name=".DiscoveryActivity_Cafe" />
-        <activity android:name=".DiscoveryActivity_Catacombs" />
-        <activity android:name=".DiscoveryActivity_FamAttr" />
-        <activity android:name=".DiscoveryActivity_Hotels" />
-        <activity android:name=".DiscoveryActivity_Museum" />
-        <activity android:name=".DiscoveryActivity_Music" />
+        <activity android:name="cebucityguide.capstoneproject.DiscoveryActivity" />
+        <activity android:name="cebucityguide.capstoneproject.DiscoveryActivity_Cafe" />
+        <activity android:name="cebucityguide.capstoneproject.DiscoveryActivity_Catacombs" />
+        <activity android:name="cebucityguide.capstoneproject.DiscoveryActivity_FamAttr" />
+        <activity android:name="cebucityguide.capstoneproject.DiscoveryActivity_Hotels" />
+        <activity android:name="cebucityguide.capstoneproject.DiscoveryActivity_Museum" />
+        <activity android:name="cebucityguide.capstoneproject.DiscoveryActivity_Music" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
