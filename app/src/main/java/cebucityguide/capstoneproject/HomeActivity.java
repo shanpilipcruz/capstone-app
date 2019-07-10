@@ -21,7 +21,7 @@ import android.widget.Toast;
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    public static final String API_KEY = "AIzaSyBYn_HkMAoetw-3RRR7AtdLdgxvOLdM4SU";
+    // public static final String API_KEY = "";  YOUR API KEY HERE.
     public static final Handler textViewHandler = new Handler();
     protected FrameLayout frameLayout;
 
